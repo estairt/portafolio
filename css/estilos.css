@@ -1,0 +1,276 @@
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+    margin:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One',sans-serif;
+    font-weight: normal;
+    letter-spacing: -.2px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    color: white;
+    /* text-transform: uppercase; */
+    /* text-decoration: overline; */
+}
+
+h1 strong{
+    color: #026fff;
+}
+.hero{
+    display: flex;
+    /* margin: 0; */
+
+    height: 300px;
+    /* background-image:url('../images/perfil.jpg'); */
+    background-color: #1b2127;
+    /* background-size: 300px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image{
+    object-fit: cover;
+}
+
+.portfolio{
+    background: #fafafa;
+    padding: 20px;
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.project strong{
+    font-family: 'Fjalla One',sans-serif;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-couse,
+.project-date,
+.project-url{
+    margin: 10px 0px;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project {
+    /* border-color: #026fff;
+    border-width: 10px;
+    border-style: solid; */
+    border:1px solid gray;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.project-details{
+    width: 50%;
+}
+.project-imageContainer{
+    width: 50%;
+}
+
+.project img{
+    width: 100%;
+    object-fit: cover; /* para que intente tomar todo el espacio posible*/
+}
+.header{
+    background-color:#1b2127; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.menu {
+    height:inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header a{
+    height : inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+.footer {
+    background-color: #1b2127;
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a {
+    color: #fafafa;
+}
+.event-list{
+    display: flex;
+    flex-wrap: wrap;/* define como se colocan los elementos dentor de un dispaly flex*/
+}
+.event{
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden; /*sirve para ocultar los bordes */
+    background: #f4fbff;
+}
+.event-list-title-container{
+    display: inline-block;
+}
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background: #fafafa;
+    position: relative;/* se puede trabajr a posicion de z */
+    padding: 20px;
+    text-align: center; /*alineado de los textos */
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    color:#056fff;
+    border: 1px solid ;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;  
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+.contact{
+    background-color:  #056fff;
+    color: #fafafa;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/* podemos alinear el contenido en diferentes partes*/
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    background-size: 50px 50px;
+    margin:  0 10px;
+}
+
+.social-link.twitter{
+    background-image: url('../images/Twitter_Bird.svg');
+}
+.social-link.facebook{
+    background-image: url('../images/facebook-icon.svg');
+}
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+.social-link.instagram{
+    background-image: url('../images/Instagram_logo_2016.svg');
+}
+
+.form-email input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../images/new-email-envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button{
+    display: block;
+    background:transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
